@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "../../First Project"
+		},
+		{
+			"name": "Second Project",
+			"path": "../../Second Project"
+		},
+		{
+			"name": "Aula 45",
+			"path": "../../Aula 45"
+		},
+		{
+			"name": "Aula 46 - Funcoes",
+			"path": "../../Aula 46 - Funcoes"
+		},
+		{
+			"name": "Aula 47 - Projeto Livre",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}

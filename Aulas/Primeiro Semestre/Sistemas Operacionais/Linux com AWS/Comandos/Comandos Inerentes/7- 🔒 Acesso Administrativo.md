@@ -1,0 +1,14 @@
+
+| Comando                       | Descrição                                                                                                                                                                                                                 | Exemplo                                   |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
+| `su [opção] [usuário]`        | Alterna para outro usuário, geralmente `root`, com privilégios administrativos.  <br>- `su -` ou `su --login`: Inicia uma nova sessão com o ambiente do usuário especificado.  <br>- `exit`: Retorna ao usuário original. | `su -`  <br>`exit`                        |
+| `sudo [comando]`              | Executa um comando com privilégios de superusuário sem alternar usuário.                                                                                                                                                  | `sudo apt update`                         |
+| `sudo -u [usuário] [comando]` | Executa um comando como outro usuário específico.                                                                                                                                                                         | `sudo -u joao touch /home/joao/teste.txt` |
+| `sudo -i`                     | Inicia um shell interativo com privilégios de root, carregando o ambiente do root.                                                                                                                                        | `sudo -i`  <br>`exit`                     |
+| `sudo -l`                     | Lista os comandos que o usuário atual pode executar com `sudo`.                                                                                                                                                           | `sudo -l`                                 |
+| `whoami`                      | Exibe o nome do usuário atual, útil para verificar após alternar com `su` ou `sudo -u`.                                                                                                                                   | `whoami`                                  |
+| `sudo sl`                     | Executa o comando `sl` (animação de trem), se instalado. Não é funcional por padrão; instale com `sudo apt install sl`.                                                                                                   | `sudo apt install sl`  <br>`sudo sl`      |
+
+### Notas Úteis
+
+- **Saiba mais**: Consulte `man su`, `man sudo`, ou `man whoami` para detalhes.
