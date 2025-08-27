@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 20vh;
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    align-items: center;
+}
+
+.logo {
+    width: 10%;
+    height: 60%;
+    background-color: #FFFFFF;
+}
+
+nav {
+    width: 30%;
+    height: 60%;
+    background-color: #FFFFFF;
+}
+
+.principal {
+    display: flex;
+    justify-content: space-between;
+    height: 60vh;
+}
+
+aside {
+    width: 30vw;
+    background-color: blueviolet;
+}
+
+main {
+    width: 70vw;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    height: 20vh;
+    background-color: chocolate;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+footer {
+    background-color: black;
+    height: 20vh;
+}

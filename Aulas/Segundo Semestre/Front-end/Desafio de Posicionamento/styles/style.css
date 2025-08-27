@@ -1,0 +1,96 @@
+img {
+    width: 200px;
+}
+
+.fantasma {
+    width: 130px;
+}
+
+.div-flex {
+    background-color: aqua;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.espacado1 {
+    justify-content: space-between;
+}
+
+.espacado2 {
+    justify-content: space-around;
+}
+
+.centralizado {
+    justify-content: center;
+}
+
+.direita {
+    justify-content: flex-end;
+}
+
+.direita-amarelo {
+    justify-content: space-between;
+}
+
+.amarelo {
+    background-color: yellow;
+}
+
+.amarelo-novo {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+}
+
+.coluna {
+    flex-direction: column;
+    height: 960px;
+    align-items: flex-start;
+}
+
+.desafio {
+    background-color: aqua;
+    flex-direction: column;
+    height: 960px;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.box {
+    box-sizing: border-box;
+}
+
+.roxo {
+    background-color: blueviolet;
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.roxo1 {
+   
+}
+
+.roxo2 {
+    align-items: flex-end;
+}
+
+.amarelo-unico {
+    background-color: yellow;
+    height: 90%;
+    display: flex;
+}
+
+.amarelo-triplo {
+    background-color: yellow;
+    box-sizing: border-box;
+    width: 20%;
+    height: 90%;
+}
+
+.agora-vai {
+    width: 49%;
+    height: 100%;
+}

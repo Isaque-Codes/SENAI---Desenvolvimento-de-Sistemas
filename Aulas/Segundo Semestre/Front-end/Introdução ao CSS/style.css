@@ -1,0 +1,74 @@
+* {
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte padrão para todo o documento */
+    margin: 0; /* Remove margens externas padrão */
+    padding: 0; /* Remove preenchimentos internos padrão */
+    box-sizing: border-box; /* Inclui padding e border no cálculo da largura/altura total do elemento */
+}
+
+body {
+    background-color: #0B0E14; /* Define a cor de fundo da página */
+    color: #FFFFFF; /* Define a cor do texto principal */
+    padding: 50px; /* Adiciona preenchimento interno ao corpo da página */
+}
+
+.banner {
+    background-image: linear-gradient(180deg, rgba(11, 14, 20, 0), rgba(11, 14, 20, 0.6)), url(https://picsum.photos/600/300); /* Define um gradiente e uma imagem como fundo */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Evita a repetição da imagem de fundo */
+    background-size: cover; /* Redimensiona a imagem para cobrir todo o elemento */
+
+    padding: 40px; /* Adiciona preenchimento interno ao banner */
+    text-align: center; /* Centraliza o texto dentro do banner */
+}
+
+.banner p {
+    margin: 5px 0 0; /* Define margem superior para parágrafos dentro do banner */
+    color: #D9e6FF; /* Define a cor do texto dos parágrafos no banner */
+}
+
+.destaque {
+    color: #0A7CFF; /* Define a cor do texto para elementos com a classe 'destaque' */
+}
+
+#especial {
+    background-color: #101522; /* Define a cor de fundo para o elemento com ID 'especial' */
+    padding: 5px; /* Adiciona preenchimento interno ao elemento 'especial' */
+    border-radius: 10px; /* Arredonda os cantos do elemento 'especial' */
+    width: 500px; /* Define a largura do elemento 'especial' */
+}
+
+img {
+    max-width: 50%; /* Garante que a imagem não exceda 50% da largura do seu contêiner */
+    border-radius: 8px; /* Arredonda os cantos da imagem */
+}
+
+table {
+    border-collapse: collapse; /* Colapsa as bordas das células da tabela */
+    width: 100%; /* Define a largura da tabela para 100% do contêiner */
+    margin-top: 10px; /* Adiciona margem superior à tabela */
+}
+
+th,
+td {
+    border: 1px solid #1A2030; /* Define a borda para células de cabeçalho e dados da tabela */
+    padding: 8px; /* Adiciona preenchimento interno às células da tabela */
+}
+
+th {
+    background-color: #101522; /* Define a cor de fundo para os cabeçalhos da tabela */
+}
+
+.botao {
+    background-color: #0A7CFF; /* Define a cor de fundo do botão */
+    border: none; /* Remove a borda do botão */
+    padding: 10px 15px; /* Adiciona preenchimento interno ao botão */
+    border-radius: 6px; /* Arredonda os cantos do botão */
+    color: #FFFFFF; /* Define a cor do texto do botão */
+}
+
+.botao:hover {
+    cursor: pointer; /* Altera o cursor para um ponteiro ao passar sobre o botão */
+    background-color: #005BB5; /* Altera a cor de fundo do botão ao passar o mouse */
+    padding: 20px 30px; /* Altera o preenchimento do botão ao passar o mouse */
+}
+
