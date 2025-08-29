@@ -93,7 +93,7 @@ void loop()
   Serial.println(remainingTime);
   Serial.print("beginTime: ");
   Serial.println(beginTime);
-  // delay(1000);
+  // delay(1000); (usado para debug)
 
   //! TRATAMENTO DO BOTAO
   static int cont = 0;
