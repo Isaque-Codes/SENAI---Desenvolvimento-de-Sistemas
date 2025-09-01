@@ -26,22 +26,25 @@ void setup()
 
 void loop()
 {
-  //! TRATAMENTO DO SEMAFORO
+  // --- Variáveis do tempo de cada fase ---
   const unsigned long redTime = 1000;
   const unsigned long yellowTime = 1000;
   const unsigned long greenTime = 50000;
 
-  static unsigned long beginTime = 0;
-  unsigned long currentTime = millis();
-  static long remainingTime = 0;
-  static long updatedRemainingTime;
+  // Variáveis de estado para o controle de tempo não-bloqueante (sem delay).
+  static unsigned long beginTime = 0;         // Armazena o momento em que a fase atual começou.
+  unsigned long currentTime = millis();       // Tempo atual, capturado uma vez por loop para consistência.
+  static long remainingTime = 0;              // Tempo restante da fase atual.
+  
+  // Variáveis de estado para a lógica adaptativa.
+  static byte trafficLightPhase = 0;          // Controla a fase atual (0: Vermelho, 1: Verde, 2: Amarelo).
+  static bool alteredTime = false;            // Flag que indica se o tempo do sinal verde foi alterado pelo botão.
+  static unsigned long progress;              // Armazena quanto tempo da fase verde já passou antes do botão ser pressionado.
+  static unsigned long newGreenTime;          // O novo tempo de duração recalculado para a fase verde.
+  static long updatedRemainingTime;           // O tempo restante ajustado após o recálculo.
 
-  static byte trafficLightPhase = 0;
-  static bool alteredTime = false;
-  static unsigned long progress;
-  static unsigned long newGreenTime;
-
-  if (trafficLightPhase == 0)
+  // --- Sessão da lógica da transição de fases ---
+  if (trafficLightPhase == 0) // Fase Vermelha
   {
     digitalWrite(pinLedYellow, LOW);
     digitalWrite(pinLedRed, HIGH);
@@ -50,12 +53,13 @@ void loop()
     if (remainingTime <= 0)
     {
       trafficLightPhase = 1;
-      beginTime = currentTime;
+      beginTime = currentTime; // Reseta o cronômetro para a próxima fase.
     }
   }
-
-  else if (trafficLightPhase == 1)
+  else if (trafficLightPhase == 1) // Fase verde (com lógica adaptativa)
   {
+    // Se o tempo não foi alterado, usa o tempo padrão (greenTime).
+    // Se foi alterado, usa o novo tempo recalculado (updatedRemainingTime).
     if (alteredTime == false)
     {
       digitalWrite(pinLedGreen, HIGH);
@@ -70,12 +74,11 @@ void loop()
     if (remainingTime <= 0)
     {
       trafficLightPhase = 2;
-      alteredTime = false;
+      alteredTime = false; // Reseta a flag para o próximo ciclo verde.
       beginTime = currentTime;
     }
   }
-
-  else if (trafficLightPhase == 2)
+  else if (trafficLightPhase == 2) // Fase Amarela
   {
     digitalWrite(pinLedGreen, LOW);
     digitalWrite(pinLedYellow, HIGH);
@@ -86,48 +89,46 @@ void loop()
       trafficLightPhase = 0;
       beginTime = currentTime;
     }
-  } //! FIM DO TRATAMENTO DO SEMAFORO
-  Serial.print("currentTime: ");
-  Serial.println(currentTime);
-  Serial.print("remainingTime: ");
-  Serial.println(remainingTime);
-  Serial.print("beginTime: ");
-  Serial.println(beginTime);
-  // delay(1000); (usado para debug)
+  }
 
-  //! TRATAMENTO DO BOTAO
-  static int cont = 0;
-
+  // --- Sessão de Tratamento do botão (Debounce e lógica adaptativa) ---
   unsigned long time = millis();
 
-  static unsigned long lastTime = 0;
-  const byte debounceTime = 50;
+  // Variáveis de estado para o debounce do botão.
+  static unsigned long lastTime = 0;          // Armazena o momento da última mudança de estado do botão.
+  const byte debounceTime = 50;               // Tempo de espera para considerar o estado do botão estável.
 
   bool stateButton = digitalRead(pinButton);
-  static bool lastStateButton = 1;
-  static bool lastAction = 1;
+  static bool lastStateButton = 1;            // Último estado lido do botão.
+  static bool lastAction = 1;                 // Última ação confirmada (evita múltiplas ações por um único aperto).
 
   if (stateButton != lastStateButton)
   {
     lastTime = time;
   }
 
+  // Ação só é executada se o estado do botão permaneceu estável pelo tempo de debounce.
   if ((time - lastTime) > debounceTime)
   {
     if (stateButton != lastAction)
     {
       lastAction = stateButton;
+      // A lógica de recálculo só é acionada se o botão for pressionado (stateButton == LOW),
+      // durante a fase verde (trafficLightPhase == 1) e se o tempo ainda não foi alterado neste ciclo.
       if (!stateButton && trafficLightPhase == 1 && alteredTime == false)
       {
+        // Calcula quanto tempo do sinal verde já se passou.
         progress = (greenTime - remainingTime);
 
+        // Lógica para reduzir o tempo do sinal verde.
+        // Quanto mais cedo o botão for pressionado, maior a redução de tempo
         if (remainingTime > (greenTime * 75) / 100)
         {
           alteredTime = true;
           newGreenTime = (greenTime * 60) / 100;
           remainingTime = newGreenTime - progress;
           updatedRemainingTime = remainingTime;
-          beginTime = currentTime;
+          beginTime = currentTime; // Reseta o cronômetro com o novo tempo restante.
         }
         else if (remainingTime > (greenTime * 50) / 100 && remainingTime <= (greenTime * 75) / 100)
         {
@@ -149,9 +150,8 @@ void loop()
     }
   }
   lastStateButton = stateButton;
-  //! FIM DO TRATAMENTO DO BOTAO
 
-  //! TRATAMENTO DO LCD
+  // --- Sessão de atualização do Display LCD ---
   if (trafficLightPhase == 0)
   {
     lcd.setCursor(0, 0);
@@ -161,7 +161,6 @@ void loop()
     lcd.setCursor(16, 2);
     lcd.print(remainingTime / 1000);
   }
-
   else if (trafficLightPhase == 1)
   {
     lcd.setCursor(0, 0);
@@ -171,7 +170,6 @@ void loop()
     lcd.setCursor(16, 2);
     lcd.print(remainingTime / 1000);
   }
-
   else if (trafficLightPhase == 2)
   {
     lcd.setCursor(0, 0);
@@ -180,5 +178,5 @@ void loop()
     lcd.print("Remaining Time: ");
     lcd.setCursor(16, 2);
     lcd.print(remainingTime / 1000);
-  } //! FIM DO TRATAMENTO DO LCD
+  }
 }
