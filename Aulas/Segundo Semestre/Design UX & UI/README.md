@@ -28,8 +28,10 @@ Este foi um exercício criativo da nossa empresa fictícia, a **Mind Stream Stud
 
 *   **Contexto:** O jogo, intitulado como **"Mind Ripper"**, tem como persona "Nemo", um personagem com amnésia em um mundo chamado "Daath". O objetivo é navegar por um castelo labiríntico, derrotar inimigos para roubar suas memórias e, por fim, encontrar o "Oblivion Prism", um artefato que concede onisciência.
 *   **Processo:**
-    1.  **Protótipo de Baixa Fidelidade (Lo-Fi):** Iniciamos com wireframes básicos, focando exclusivamente na estrutura das telas, no fluxo de navegação do jogador e na disposição dos elementos principais da interface.
-    2.  **Protótipo de Alta Fidelidade (Hi-Fi):** Evoluímos os wireframes para um design visual completo, aplicando conceitos de teoria das cores, tipografia e hierarquia para criar a atmosfera do jogo e garantir que a interface fosse clara e funcional.
+    1.  **Protótipo de Baixa Fidelidade:** Iniciamos com wireframes básicos, focando exclusivamente na estrutura das telas, no fluxo de navegação do jogador e na disposição dos elementos principais da interface.
+    2.  **Protótipo de Alta Fidelidade:** Evoluímos os wireframes para um design visual completo, aplicando conceitos de teoria das cores, tipografia e hierarquia para criar a atmosfera do jogo e garantir que a interface fosse clara e funcional.
+
+> **Confira os protótipos do Mind Ripper ** **[aqui](./Prot%C3%B3tipos%20Mind%20Ripper)**.
 
 ### 2. Projeto Principal: Plataforma "Aurum Lab"
 
@@ -42,5 +44,7 @@ Este projeto representa a aplicação prática do design UX/UI em um produto rea
     *   **Prototipagem Interativa:** Conexão das telas para simular o fluxo de navegação real do usuário, permitindo testar a usabilidade e a intuição da plataforma antes do desenvolvimento.
 
 Este projeto solidificou nossa capacidade de traduzir requisitos de um sistema complexo em uma interface de usuário coesa, organizada e pronta para ser implementada pelos desenvolvedores.
+
+> **Confira os protótipos do Aurum Lab ** **[aqui](./Prot%C3%B3tipos%20Aurum%20Lab%20-%20Projeto%20Semestral)**.
 
 Acompanhe o desenvolvimento deste projeto no decorrer das disciplinas deste semestre. Fique por dentro!
