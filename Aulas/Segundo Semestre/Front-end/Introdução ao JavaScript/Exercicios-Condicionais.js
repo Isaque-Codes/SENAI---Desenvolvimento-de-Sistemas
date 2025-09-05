@@ -199,12 +199,9 @@ if (imc < 18.5) {
 // Peça um ano e verifique se é bissexto.
 // Um ano é bissexto se for divisível por 4, mas não por 100, exceto se for divisível por 400.
 
-let ano = parent(prompt("Insira um ano para saber se ele eh bissexto."));
-
-if (ano % 4) {
-    if (ano % 100 != 0 || ano % 400 == 0) {
-        alert("O ano eh bissexto.");
-    }
-} else {
-    alert("O ano nao eh bissexto.");
-}
+let ano = parseInt(prompt("Insira um ano para saber se ele eh bissexto."));
+let resultado;
+(!Boolean(ano % 4)) && Boolean(ano % 100) || !Boolean(ano % 400)
+    ? resultado = "eh bissexto"
+    : resultado = "nao eh bissexto";
+alert(`O ano ${ano} ${resultado}`);
