@@ -81,9 +81,13 @@ do {
 // Peça um número ao usuário.
 // Use um for ou while para calcular o fatorial desse número.
 
-function fatorial() {
-
+let fatorial = parseInt(prompt("Insira um numero para calcular sua fatorial."));
+let multiplicacao;
+for (i = fatorial; i >= 1; i--) {
+    if (i == 1) break;
+    multiplicacao = i * (i - 1);
 }
+alert(`A fatorial de ${fatorial} eh: ${multiplicacao}.`);
 
 // 3. Inverter um número:
 // Peça um número ao usuário.
