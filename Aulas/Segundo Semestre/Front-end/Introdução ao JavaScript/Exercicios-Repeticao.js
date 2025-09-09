@@ -71,37 +71,54 @@ while (N5 >= 0) {
 // Peça ao usuário um número inteiro positivo.
 // Use um while para somar seus dígitos.
 
-let numero = (prompt("Insira um numero inteiro positivo qualquer"));
-let sucesso = false;
-do {
+let numeroInserido = prompt("Insira um numero para saber a soma de suas casas decimais");
+let numerosCasas = numeroInserido.length;
+let somaNumeros = 0;
 
-} while (!sucesso)
+for (let i = 0; i < numerosCasas; i++) {
+    somaNumeros += parseInt(numeroInserido[i]);
+}
+console.log(somaNumeros);
 
 // 2. Fatorial de um número:
 // Peça um número ao usuário.
 // Use um for ou while para calcular o fatorial desse número.
 
-let fatorial = parseInt(prompt("Insira um numero para calcular sua fatorial."));
-let multiplicacao;
-for (i = fatorial; i >= 1; i--) {
-    if (i == 1) break;
-    multiplicacao = i * (i - 1);
+let fatorialUsuario = parseInt(prompt("Insira um numero para exibir seu fatorial"));
+let fatorial = 1;
+for (i = fatorialUsuario; i >= 1; i--) {
+    fatorial *= i;
 }
-alert(`A fatorial de ${fatorial} eh: ${multiplicacao}.`);
+console.log(fatorial);
 
 // 3. Inverter um número:
 // Peça um número ao usuário.
 // Use um while para inverter seus dígitos (exemplo: 123 → 321).
 
-function inverterNumero() {
+let inverteNumeros = prompt("Insira um numero para ser invertido");
+let numerosPresentes = inverteNumeros.length - 1;
+let numeroInvertido = "";
 
+while (numerosPresentes >= 0) {
+    numeroInvertido += inverteNumeros[numerosPresentes]
+    numerosPresentes--;
 }
+console.log(numeroInvertido);
 
 // 4. Números perfeitos de 1 a 1000:
 // Um número perfeito é aquele cuja soma de seus divisores (excluindo ele mesmo) é igual ao próprio número.
 // Exemplo: 6 → 1 + 2 + 3 = 6.
 // Use um for aninhado para encontrar e exibir esses números até 1000.
 
-function numerosPerfeitos() {
+let numeroInseridoPer = parseInt(prompt("Insira uma numero para ver se ele eh perfeit0"))
+let somaPer = 0;
 
+for (i = 0; somaPer <= numeroInseridoPer - 1; i++) {
+    console.log(somaPer);
+    somaPer += i
 }
+console.log(somaPer);
+if (somaPer == numeroInseridoPer)
+    console.log("Numero eh perfeito")
+else
+    console.log("Nao eh perfeito")
