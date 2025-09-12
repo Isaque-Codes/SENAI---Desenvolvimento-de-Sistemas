@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Minha To-Do List</h1>
+    <p>Exercício de manipulação de DOM</p>
+  </header>
+
+  <main>
+    <section class="formulario">
+      <form id="form-tarefa">
+        <input id="titulo" type="text" placeholder="Digite uma tarefa..." required />
+        <button type="submit">Adicionar</button>
+      </form>
+    </section>
+
+    <section class="filtros">
+      <select id="filtro-status">
+        <option value="todas" selected>Todas</option>
+        <option value="pendente">Pendentes</option>
+        <option value="andamento">Em andamento</option>
+        <option value="concluida">Concluídas</option>
+      </select>
+      <input id="filtro-busca" type="search" placeholder="Buscar tarefa..." />
+    </section>
+
+    <ul id="lista-tarefas" class="lista-tarefas"></ul>
+    <p id="vazio" class="vazio">Nenhuma tarefa ainda. Adicione a primeira!</p>
+  </main>
+
+  <footer>
+    <span>Feito para praticar <strong>DOM</strong></span>
+  </footer>
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>
