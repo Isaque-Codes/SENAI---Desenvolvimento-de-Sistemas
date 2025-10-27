@@ -225,3 +225,115 @@ WHERE titulo LIKE '%O%';
 SELECT id_Emprestimo, id_livro, data_emprestimo
 FROM Emprestimo
 WHERE data_devolucao IS NOT NULL;
+
+-----------------------------------------------------------------------
+--                      EXERCICIOS FINAIS
+-----------------------------------------------------------------------
+
+-- Funcoes de Texto
+
+-- 1. Concatene o nome e o sobrenome do cliente em uma coluna chamada NomeCompleto.
+SELECT CONCAT(nome, ' (Leitor)') AS NomeCompleto
+FROM Leitor;
+
+-- 2. Converta o nome do produto para letras maiusculas e exiba em uma coluna chamada NomeMaiusculo.
+SELECT UPPER(titulo) AS NomeMaiusculo
+FROM Livro;
+
+-- 3. Crie uma consulta que retorne os 3 primeiros caracteres do nome de cada cliente.
+SELECT LEFT(nome, 3) AS TresPrimeirosCaracteres
+FROM Leitor;
+
+-- 4. Localize a posicao do caractere @ no email de cada cliente. Exiba a posicao como PosicaoArroba.
+SELECT email, CHARINDEX('@', email) AS PosicaoArroba
+FROM Leitor;
+
+
+-- Funcoes Numericas
+
+-- 5. Calcule um desconto de 15% para todos os produtos e exiba o preco com desconto.
+SELECT titulo, ano, ano * 0.85 AS PrecoComDesconto
+FROM Livro;
+
+-- 6. Arredonde os precos dos produtos para 2 casas decimais e exiba como PrecoArredondado.
+SELECT titulo, ano, ROUND(ano * 0.9, 2) AS PrecoArredondado
+FROM Livro;
+
+-- 7. Exiba o valor absoluto do estoque dos produtos (mesmo que o valor seja negativo).
+SELECT ABS(-25) AS EstoqueAbsoluto;
+
+-- 8. Calcule o quadrado do preco de cada produto e exiba como PrecoAoQuadrado.
+SELECT titulo, ano, POWER(ano, 2) AS PrecoAoQuadrado
+FROM Livro;
+
+
+-- Funções de Data e Hora
+
+-- 9. Liste o ano e o mês em que cada pedido foi realizado.
+SELECT id_Emprestimo, YEAR(data_emprestimo) AS Ano, MONTH(data_emprestimo) AS Mes
+FROM Emprestimo;
+
+-- 10. Calcule os anos de cadastro de cada cliente com base na data de cadastro.
+SELECT id_Leitor, DATEDIFF(YEAR, data_emprestimo, GETDATE()) AS AnosDeCadastro
+FROM Emprestimo;
+
+-- 11. Adicione 30 dias à data do pedido e exiba como DataEntregaPrevista.
+SELECT id_Emprestimo, data_emprestimo, DATEADD(DAY, 30, data_emprestimo) AS DataEntregaPrevista
+FROM Emprestimo;
+
+-- 12. Exiba o dia da semana em que cada pedido foi realizado (por exemplo, Segunda-feira).
+SET LANGUAGE Portuguese;
+SELECT id_Emprestimo, DATENAME(WEEKDAY, data_emprestimo) AS DiaDaSemana
+FROM Emprestimo;
+
+
+-- Funções de Agregação
+
+-- 13. Calcule o total de produtos no estoque.
+SELECT COUNT(id_Livro) AS TotalDeLivros
+FROM Livro;
+
+-- 14. Encontre o preço médio dos produtos e exiba como PrecoMedio.
+SELECT AVG(ano) AS AnoMedio
+FROM Livro;
+
+-- 15. Identifique o maior e o menor preço dos produtos e exiba ambos.
+SELECT MAX(ano) AS MaiorAno, MIN(ano) AS MenorAno
+FROM Livro;
+
+-- 16. Conte quantos pedidos foram realizados no total.
+SELECT COUNT(id_Emprestimo) AS TotalDePedidos
+FROM Emprestimo;
+
+
+-- Consultas com GROUP BY
+
+-- 17. Liste o total de pedidos realizados por cada cliente.
+SELECT id_Leitor, COUNT(id_Emprestimo) AS TotalPedidos
+FROM Emprestimo
+GROUP BY id_Leitor;
+
+-- 18. Calcule o total de estoque por categoria de produto.
+SELECT id_Autor, COUNT(id_Livro) AS TotalDeLivrosPorAutor
+FROM Livro
+GROUP BY id_Autor;
+
+-- 19. Exiba o número de produtos por categoria.
+SELECT a.nome, COUNT(l.id_Livro) AS NumeroDeProdutos
+FROM Livro l
+JOIN Autor a ON l.id_Autor = a.id_Autor
+GROUP BY a.nome;
+
+-- 20. Liste a soma dos valores totais dos pedidos (ValorTotal) agrupados por status (Status).
+SELECT
+    CASE
+        WHEN data_devolucao IS NOT NULL THEN 'Devolvido'
+        ELSE 'Pendente'
+    END AS Status,
+    COUNT(id_Emprestimo) AS Quantidade
+FROM Emprestimo
+GROUP BY
+    CASE
+        WHEN data_devolucao IS NOT NULL THEN 'Devolvido'
+        ELSE 'Pendente'
+    END;

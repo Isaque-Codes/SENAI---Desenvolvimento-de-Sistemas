@@ -1,0 +1,14 @@
+C:\Users\47644245847\Desktop\Continuação POO\bin\Debug\net9.0\Continuação POO.exe
+C:\Users\47644245847\Desktop\Continuação POO\bin\Debug\net9.0\Continuação POO.deps.json
+C:\Users\47644245847\Desktop\Continuação POO\bin\Debug\net9.0\Continuação POO.runtimeconfig.json
+C:\Users\47644245847\Desktop\Continuação POO\bin\Debug\net9.0\Continuação POO.dll
+C:\Users\47644245847\Desktop\Continuação POO\bin\Debug\net9.0\Continuação POO.pdb
+C:\Users\47644245847\Desktop\Continuação POO\obj\Debug\net9.0\Continuação POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\47644245847\Desktop\Continuação POO\obj\Debug\net9.0\Continuação POO.AssemblyInfoInputs.cache
+C:\Users\47644245847\Desktop\Continuação POO\obj\Debug\net9.0\Continuação POO.AssemblyInfo.cs
+C:\Users\47644245847\Desktop\Continuação POO\obj\Debug\net9.0\Continuação POO.csproj.CoreCompileInputs.cache
+C:\Users\47644245847\Desktop\Continuação POO\obj\Debug\net9.0\Continuação POO.dll
+C:\Users\47644245847\Desktop\Continuação POO\obj\Debug\net9.0\refint\Continuação POO.dll
+C:\Users\47644245847\Desktop\Continuação POO\obj\Debug\net9.0\Continuação POO.pdb
+C:\Users\47644245847\Desktop\Continuação POO\obj\Debug\net9.0\Continuação POO.genruntimeconfig.cache
+C:\Users\47644245847\Desktop\Continuação POO\obj\Debug\net9.0\ref\Continuação POO.dll

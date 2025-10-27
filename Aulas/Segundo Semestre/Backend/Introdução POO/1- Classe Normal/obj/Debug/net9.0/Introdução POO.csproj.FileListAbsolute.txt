@@ -1,0 +1,28 @@
+C:\Users\47644245847\Desktop\Introdução POO\bin\Debug\net9.0\Introdução POO.exe
+C:\Users\47644245847\Desktop\Introdução POO\bin\Debug\net9.0\Introdução POO.deps.json
+C:\Users\47644245847\Desktop\Introdução POO\bin\Debug\net9.0\Introdução POO.runtimeconfig.json
+C:\Users\47644245847\Desktop\Introdução POO\bin\Debug\net9.0\Introdução POO.dll
+C:\Users\47644245847\Desktop\Introdução POO\bin\Debug\net9.0\Introdução POO.pdb
+C:\Users\47644245847\Desktop\Introdução POO\obj\Debug\net9.0\Introdução POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\47644245847\Desktop\Introdução POO\obj\Debug\net9.0\Introdução POO.AssemblyInfoInputs.cache
+C:\Users\47644245847\Desktop\Introdução POO\obj\Debug\net9.0\Introdução POO.AssemblyInfo.cs
+C:\Users\47644245847\Desktop\Introdução POO\obj\Debug\net9.0\Introdução POO.csproj.CoreCompileInputs.cache
+C:\Users\47644245847\Desktop\Introdução POO\obj\Debug\net9.0\Introdução POO.dll
+C:\Users\47644245847\Desktop\Introdução POO\obj\Debug\net9.0\refint\Introdução POO.dll
+C:\Users\47644245847\Desktop\Introdução POO\obj\Debug\net9.0\Introdução POO.pdb
+C:\Users\47644245847\Desktop\Introdução POO\obj\Debug\net9.0\Introdução POO.genruntimeconfig.cache
+C:\Users\47644245847\Desktop\Introdução POO\obj\Debug\net9.0\ref\Introdução POO.dll
+C:\Users\47644245847\Desktop\Introdução POO\1- Classe Normal\bin\Debug\net9.0\Introdução POO.exe
+C:\Users\47644245847\Desktop\Introdução POO\1- Classe Normal\bin\Debug\net9.0\Introdução POO.deps.json
+C:\Users\47644245847\Desktop\Introdução POO\1- Classe Normal\bin\Debug\net9.0\Introdução POO.runtimeconfig.json
+C:\Users\47644245847\Desktop\Introdução POO\1- Classe Normal\bin\Debug\net9.0\Introdução POO.dll
+C:\Users\47644245847\Desktop\Introdução POO\1- Classe Normal\bin\Debug\net9.0\Introdução POO.pdb
+C:\Users\47644245847\Desktop\Introdução POO\1- Classe Normal\obj\Debug\net9.0\Introdução POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\47644245847\Desktop\Introdução POO\1- Classe Normal\obj\Debug\net9.0\Introdução POO.AssemblyInfoInputs.cache
+C:\Users\47644245847\Desktop\Introdução POO\1- Classe Normal\obj\Debug\net9.0\Introdução POO.AssemblyInfo.cs
+C:\Users\47644245847\Desktop\Introdução POO\1- Classe Normal\obj\Debug\net9.0\Introdução POO.csproj.CoreCompileInputs.cache
+C:\Users\47644245847\Desktop\Introdução POO\1- Classe Normal\obj\Debug\net9.0\Introdução POO.dll
+C:\Users\47644245847\Desktop\Introdução POO\1- Classe Normal\obj\Debug\net9.0\refint\Introdução POO.dll
+C:\Users\47644245847\Desktop\Introdução POO\1- Classe Normal\obj\Debug\net9.0\Introdução POO.pdb
+C:\Users\47644245847\Desktop\Introdução POO\1- Classe Normal\obj\Debug\net9.0\Introdução POO.genruntimeconfig.cache
+C:\Users\47644245847\Desktop\Introdução POO\1- Classe Normal\obj\Debug\net9.0\ref\Introdução POO.dll

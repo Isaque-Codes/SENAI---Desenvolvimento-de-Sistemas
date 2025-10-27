@@ -1,0 +1,14 @@
+C:\Users\47644245847\Desktop\Introdução POO\2- Classe Abstrata\bin\Debug\net9.0\2- Classe Abstrata.exe
+C:\Users\47644245847\Desktop\Introdução POO\2- Classe Abstrata\bin\Debug\net9.0\2- Classe Abstrata.deps.json
+C:\Users\47644245847\Desktop\Introdução POO\2- Classe Abstrata\bin\Debug\net9.0\2- Classe Abstrata.runtimeconfig.json
+C:\Users\47644245847\Desktop\Introdução POO\2- Classe Abstrata\bin\Debug\net9.0\2- Classe Abstrata.dll
+C:\Users\47644245847\Desktop\Introdução POO\2- Classe Abstrata\bin\Debug\net9.0\2- Classe Abstrata.pdb
+C:\Users\47644245847\Desktop\Introdução POO\2- Classe Abstrata\obj\Debug\net9.0\2- Classe Abstrata.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\47644245847\Desktop\Introdução POO\2- Classe Abstrata\obj\Debug\net9.0\2- Classe Abstrata.AssemblyInfoInputs.cache
+C:\Users\47644245847\Desktop\Introdução POO\2- Classe Abstrata\obj\Debug\net9.0\2- Classe Abstrata.AssemblyInfo.cs
+C:\Users\47644245847\Desktop\Introdução POO\2- Classe Abstrata\obj\Debug\net9.0\2- Classe Abstrata.csproj.CoreCompileInputs.cache
+C:\Users\47644245847\Desktop\Introdução POO\2- Classe Abstrata\obj\Debug\net9.0\2- Classe Abstrata.dll
+C:\Users\47644245847\Desktop\Introdução POO\2- Classe Abstrata\obj\Debug\net9.0\refint\2- Classe Abstrata.dll
+C:\Users\47644245847\Desktop\Introdução POO\2- Classe Abstrata\obj\Debug\net9.0\2- Classe Abstrata.pdb
+C:\Users\47644245847\Desktop\Introdução POO\2- Classe Abstrata\obj\Debug\net9.0\2- Classe Abstrata.genruntimeconfig.cache
+C:\Users\47644245847\Desktop\Introdução POO\2- Classe Abstrata\obj\Debug\net9.0\ref\2- Classe Abstrata.dll

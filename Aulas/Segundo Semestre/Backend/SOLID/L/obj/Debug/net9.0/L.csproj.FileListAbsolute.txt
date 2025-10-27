@@ -1,0 +1,14 @@
+C:\Users\47644245847\Desktop\SOLID\L\bin\Debug\net9.0\L.exe
+C:\Users\47644245847\Desktop\SOLID\L\bin\Debug\net9.0\L.deps.json
+C:\Users\47644245847\Desktop\SOLID\L\bin\Debug\net9.0\L.runtimeconfig.json
+C:\Users\47644245847\Desktop\SOLID\L\bin\Debug\net9.0\L.dll
+C:\Users\47644245847\Desktop\SOLID\L\bin\Debug\net9.0\L.pdb
+C:\Users\47644245847\Desktop\SOLID\L\obj\Debug\net9.0\L.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\47644245847\Desktop\SOLID\L\obj\Debug\net9.0\L.AssemblyInfoInputs.cache
+C:\Users\47644245847\Desktop\SOLID\L\obj\Debug\net9.0\L.AssemblyInfo.cs
+C:\Users\47644245847\Desktop\SOLID\L\obj\Debug\net9.0\L.csproj.CoreCompileInputs.cache
+C:\Users\47644245847\Desktop\SOLID\L\obj\Debug\net9.0\L.dll
+C:\Users\47644245847\Desktop\SOLID\L\obj\Debug\net9.0\refint\L.dll
+C:\Users\47644245847\Desktop\SOLID\L\obj\Debug\net9.0\L.pdb
+C:\Users\47644245847\Desktop\SOLID\L\obj\Debug\net9.0\L.genruntimeconfig.cache
+C:\Users\47644245847\Desktop\SOLID\L\obj\Debug\net9.0\ref\L.dll

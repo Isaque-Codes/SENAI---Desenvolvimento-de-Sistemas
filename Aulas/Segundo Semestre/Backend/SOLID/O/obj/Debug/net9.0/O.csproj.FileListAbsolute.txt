@@ -1,0 +1,14 @@
+C:\Users\47644245847\Desktop\SOLID\O\bin\Debug\net9.0\O.exe
+C:\Users\47644245847\Desktop\SOLID\O\bin\Debug\net9.0\O.deps.json
+C:\Users\47644245847\Desktop\SOLID\O\bin\Debug\net9.0\O.runtimeconfig.json
+C:\Users\47644245847\Desktop\SOLID\O\bin\Debug\net9.0\O.dll
+C:\Users\47644245847\Desktop\SOLID\O\bin\Debug\net9.0\O.pdb
+C:\Users\47644245847\Desktop\SOLID\O\obj\Debug\net9.0\O.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\47644245847\Desktop\SOLID\O\obj\Debug\net9.0\O.AssemblyInfoInputs.cache
+C:\Users\47644245847\Desktop\SOLID\O\obj\Debug\net9.0\O.AssemblyInfo.cs
+C:\Users\47644245847\Desktop\SOLID\O\obj\Debug\net9.0\O.csproj.CoreCompileInputs.cache
+C:\Users\47644245847\Desktop\SOLID\O\obj\Debug\net9.0\O.dll
+C:\Users\47644245847\Desktop\SOLID\O\obj\Debug\net9.0\refint\O.dll
+C:\Users\47644245847\Desktop\SOLID\O\obj\Debug\net9.0\O.pdb
+C:\Users\47644245847\Desktop\SOLID\O\obj\Debug\net9.0\O.genruntimeconfig.cache
+C:\Users\47644245847\Desktop\SOLID\O\obj\Debug\net9.0\ref\O.dll
