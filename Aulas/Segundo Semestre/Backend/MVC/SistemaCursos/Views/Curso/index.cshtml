@@ -1,0 +1,25 @@
+@model List<SistemaCursos.Models.Curso>
+
+<h2>Cursos</h2>
+
+<a asp-action="Criar" class="btn btn-primary"></a>
+
+<table class="table mt-3">
+    <tr>
+        <th>Nome</th>
+        <th>Tipo de Curso</th>
+        <th>Quantidade de Horas</th>
+        <th>Preco Calculado</th>
+        <th>Acoes</th>
+    </tr>
+    @foreach (var Curso in Model)
+    {
+        <td>@Curso.Nome</td>
+        <td>@Curso.GetType().Name</td>
+        <td>@Curso.Horas</td>
+        <td>@Curso.CalcularPreco()</td>
+        <td>
+            <a asp-action="Deletar" asp-route-id="@Curso.Id" class="btn btn-danger">Excluir</a>
+        </td>
+    }
+</table>

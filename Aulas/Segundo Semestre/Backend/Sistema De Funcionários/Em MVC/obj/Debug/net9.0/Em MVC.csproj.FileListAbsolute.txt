@@ -1,0 +1,96 @@
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\bin\Debug\net9.0\appsettings.json
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\bin\Debug\net9.0\Em MVC.staticwebassets.runtime.json
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\bin\Debug\net9.0\Em MVC.staticwebassets.endpoints.json
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\bin\Debug\net9.0\Em MVC.exe
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\bin\Debug\net9.0\Em MVC.deps.json
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\bin\Debug\net9.0\Em MVC.runtimeconfig.json
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\bin\Debug\net9.0\Em MVC.dll
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\bin\Debug\net9.0\Em MVC.pdb
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\Em MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\Em MVC.AssemblyInfoInputs.cache
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\Em MVC.AssemblyInfo.cs
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\Em MVC.csproj.CoreCompileInputs.cache
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\Em MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\Em MVC.RazorAssemblyInfo.cache
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\Em MVC.RazorAssemblyInfo.cs
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\scopedcss\bundle\Em MVC.styles.css
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\scopedcss\projectbundle\Em MVC.bundle.scp.css
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\uenqlbxhnx-b9sayid5wm.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\jnpwvq1r3k-61n19gt1b8.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\tt61sqx47l-xtxxf3hu2r.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\fsx827kt5t-bqjiyaj88i.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\x4ebpmkvr5-c2jlpeoesf.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\3oyzw859so-erw9l3u2r3.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\d5vxsx5toi-aexeepp0ev.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\yna86xbhbb-d7shbmvgxk.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\q7li76fpxr-ausgxo2sd3.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\69kev5r2qe-k8d9w2qqmf.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\d9znugn1s4-cosvhxvwiu.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\03sa33lfvd-ub07r2b239.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\8669gd74fq-fvhpjtyr6v.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\gpx0vac8ou-b7pk76d08c.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\cj7g3030uv-fsbi9cje9m.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\5s318r9emg-rzd6atqjts.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\ev7d5rh1cn-ee0r1s7dh0.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\t3lvqeg85i-dxx9fxp4il.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\i4z7oj2ttg-jd9uben2k1.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\h7osw8eg0c-khv3u5hwcm.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\gwb3rn9bz9-r4e9w2rdcm.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\0v07ptqkbu-lcd1t2u6c8.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\593x37ldhi-c2oey78nd0.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\qrqtntg7h4-tdbxkamptv.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\v6m1snr7d4-j5mq2jizvt.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\j7lntpaz4p-06098lyss8.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\bfw0z0x15a-nvvlpmu67g.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\bgbtpg6smc-s35ty4nyc5.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\rpsup44lzy-pj5nd1wqec.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\kacuw8f2py-46ein0sx1k.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\j47poc26pm-v0zj4ognzu.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\xj5ypbc63q-37tfw0ft22.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\ib35kfng90-hrwsygsryq.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\hlem3quqoc-pk9g2wxc8p.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\34vjql2nug-ft3s53vfgj.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\iic7m36znz-6cfz1n2cew.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\jf1elk5fo0-6pdc2jztkx.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\i5ot1x06ev-493y06b0oq.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\zjbqpbtsvf-iovd86k7lj.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\ewg0o75arp-vr1egmr9el.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\gijz6pj6rf-kbrnm935zg.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\lu7el6x1by-jj8uyg4cgr.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\6w0tvzonwb-y7v9cxd14o.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\wx7o58iw6x-notf2xhcfb.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\ho06m2uzcw-h1s4sie4z3.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\tqftjfozwe-63fj8s7r0e.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\sabpcdorfd-0j3bgjxly4.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\oe0nmmyswg-47otxtyo56.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\2zrjcs8639-4v8eqarkd7.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\v0jfyqcudz-356vix0kms.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\lj0n1vjyas-83jwlth58m.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\dg7m1by7t8-mrlpezrjn3.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\vjr8cv2yqk-lzl9nlhx6b.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\8mpagjivjc-ag7o75518u.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\vsg3gf20z9-x0q3zqp4vz.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\hrdcbkbhpo-0i3buxo5is.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\euk7x10tf9-o1o13a6vjx.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\bitgucs021-ttgo8qnofa.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\nyn4vt2xp4-2z0ns9nrw6.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\mln2my4h4m-muycvpuwrr.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\ew7z0yp7ec-87fc7y1x7t.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\fdrb26w74n-mlv21k5csn.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\2f965amtuo-qbwtaief8g.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\compressed\633bst3bc3-qbwtaief8g.gz
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\Em MVC.dll
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\refint\Em MVC.dll
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\Em MVC.pdb
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\Em MVC.genruntimeconfig.cache
+C:\Users\47644245847\Desktop\Sistema De Funcionários\Em MVC\obj\Debug\net9.0\ref\Em MVC.dll

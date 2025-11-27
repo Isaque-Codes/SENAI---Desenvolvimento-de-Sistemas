@@ -1,0 +1,14 @@
+C:\Users\47644245847\Desktop\Atividade POO\bin\Debug\net9.0\Atividade POO.exe
+C:\Users\47644245847\Desktop\Atividade POO\bin\Debug\net9.0\Atividade POO.deps.json
+C:\Users\47644245847\Desktop\Atividade POO\bin\Debug\net9.0\Atividade POO.runtimeconfig.json
+C:\Users\47644245847\Desktop\Atividade POO\bin\Debug\net9.0\Atividade POO.dll
+C:\Users\47644245847\Desktop\Atividade POO\bin\Debug\net9.0\Atividade POO.pdb
+C:\Users\47644245847\Desktop\Atividade POO\obj\Debug\net9.0\Atividade POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\47644245847\Desktop\Atividade POO\obj\Debug\net9.0\Atividade POO.AssemblyInfoInputs.cache
+C:\Users\47644245847\Desktop\Atividade POO\obj\Debug\net9.0\Atividade POO.AssemblyInfo.cs
+C:\Users\47644245847\Desktop\Atividade POO\obj\Debug\net9.0\Atividade POO.csproj.CoreCompileInputs.cache
+C:\Users\47644245847\Desktop\Atividade POO\obj\Debug\net9.0\Atividade POO.dll
+C:\Users\47644245847\Desktop\Atividade POO\obj\Debug\net9.0\refint\Atividade POO.dll
+C:\Users\47644245847\Desktop\Atividade POO\obj\Debug\net9.0\Atividade POO.pdb
+C:\Users\47644245847\Desktop\Atividade POO\obj\Debug\net9.0\Atividade POO.genruntimeconfig.cache
+C:\Users\47644245847\Desktop\Atividade POO\obj\Debug\net9.0\ref\Atividade POO.dll

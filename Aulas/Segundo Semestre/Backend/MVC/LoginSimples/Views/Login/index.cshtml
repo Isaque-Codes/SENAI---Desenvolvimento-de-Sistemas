@@ -1,0 +1,34 @@
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="~/css/style.css" />
+    <script src="~/js/script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Login</h2>
+
+        <form action="/Login/Entrar" method="post">
+            <label>Email: </label>
+            <input type="email" name="email" id="usuario">
+
+            <label>Senha: </label>
+            <input type="password" name="senha" id="senha">
+
+            <button type="submit">Entrar</button>
+
+            <div class="erro">@ViewBag.erro</div>
+        </form>
+    </div>
+
+</body>
+
+</html>
