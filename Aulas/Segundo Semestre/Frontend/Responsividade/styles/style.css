@@ -1,0 +1,303 @@
+/* CABEÇALHO */
+
+header {
+    display: flex;
+    background-color: var(--fundo-rosa);
+    height: 15vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4%;
+}
+
+.logo {
+    width: 7%;
+}
+
+nav {
+    width: 40%;
+    /* background-color: aqua; */
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li {
+    list-style: none;
+    color: var(--rosa-escuro);
+    font-weight: 800;
+    font-size: 1.2em;
+
+    cursor: pointer;
+    /* mãozinha que aparece quando passa o mouse em cima */
+}
+
+.menu li:hover {
+    color: #b61e53;
+    text-decoration: underline;
+}
+
+
+/* BANNER */
+.banner {
+    background-color: var(--fundo-rosa);
+    display: flex;
+    justify-content: space-between;
+    height: 60vh;
+    align-items: center;
+    padding: 0 6%;
+}
+
+.banner-esquerda {
+    width: 45%;
+}
+
+.banner-esquerda h1 {
+    font-size: 4.5rem;
+    color: var(--rosa-escuro);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.banner-esquerda p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.banner-direita {
+    width: 30%;
+}
+
+.comprar {
+    background-color: var(--rosa-escuro);
+    color: #FFFFFF;
+    border: none;
+    padding: 14px 36px;
+    border-radius: 40px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* PRODUTOS */
+.produtos {
+    background-color: var(--fundo-rosa-escuro);
+    padding: 15% 6%;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.rosquinha {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: var(--fundo-rosa);
+    border-radius: 24px;
+    padding: 30px 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.card h3 {
+    color: var(--rosa-escuro);
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.card .comprar {
+    width: 100%;
+}
+
+
+/* SUGESTÃO */
+.sugestao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--fundo-rosa);
+    padding: 80px 6%;
+}
+
+.sugestao img {
+    width: 45%;
+}
+
+
+.sugestao h2 {
+    color: var(--rosa-escuro);
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+
+.sugestao form {
+    background-color: var(--rosa-escuro);
+    padding: 30px;
+    border-radius: 20px;
+    width: 50%;
+}
+
+.sugestao label {
+    color: white;
+    font-size: 0.9rem;
+}
+
+.sugestao input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 16px;
+    border-radius: 10px;
+    border: none;
+}
+
+.div-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: --fundo-rosa-escuro;
+    padding: 50px 6% 20px;
+}
+
+.footer-conteudo {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.footer-col {
+    width: 30%;
+}
+
+.footer-logo {
+    width: 120px;
+    margin-bottom: 15px;
+}
+
+.footer-col p {
+    font-size: 0.9rem;
+}
+
+.footer-col h4 {
+    color: var(--rosa-escuro);
+    margin-bottom: 15px;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col li {
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.footer-col li:hover {
+    color: var(--rosa-escuro);
+}
+
+.footer-copy {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #555555;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 2% 4%;
+        gap: 20px;
+    }
+
+    .logo {
+        width: 20%;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .menu {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        /* quebra os elementos quando atinge um certo tamanho */
+        gap: 10px;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 10% 6%;
+        gap: 30px;
+        height: 50vh;
+    }
+
+    .banner-esquerda {
+        width: 100%;
+    }
+
+    .banner-direita {
+        width: 60%;
+    }
+
+    .produtos {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        width: 60%;
+    }
+
+    .sugestao {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .sugestao img {
+        width: 80%;
+    }
+
+    .div-form h2 {
+        width: 80%;
+    }
+
+    .sugestao form {
+        width: 80%;
+    }
+
+    /* FOOTER */
+    .footer-conteudo {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .footer-col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .footer-col p {
+        width: 50%;
+    }
+}

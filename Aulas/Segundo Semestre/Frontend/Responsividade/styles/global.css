@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Geom:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Geom", sans-serif;
+}
+
+:root {
+
+    --fundo-rosa: #FCEEF5;
+    --rosa-escuro: #E64C83;
+    --fundo-rosa-escuro: #FAD0E8;
+}
