@@ -1,8 +1,8 @@
 # 🧠 Lógica de Programação e Algoritmos
 
-Esta pasta documenta a grade de aprendizado em Lógica de Programação e Algoritmos, utilizando virtualmente o microcontrolador Arduino (C/C++). Os códigos progridem de conceitos fundamentais, como o controle de LEDs, até sistemas interativos complexos que integram múltiplos periféricos. O objetivo é construir uma base sólida em programação estruturada, manipulação de hardware e resolução de problemas algorítmicos.
+O objetivo é construir uma base sólida em programação estruturada, manipulação de hardware e resolução de problemas algorítmicos.
 
-> **Nota:** Os projetos aqui presentes foram desenvolvidos e simulados na plataforma **Tinkercad**. Como a execução depende da montagem manual de circuitos virtuais, o foco deste material é a demonstração da lógica de programação e dos conceitos aplicados, e não um guia de reprodução passo a passo.
+> **Nota:** Os projetos aqui presentes foram desenvolvidos e simulados na plataforma **Tinkercad**. Como a execução depende da montagem manual de circuitos virtuais, o foco deste material é a demonstração da lógica de programação e dos conceitos aplicados, e não um guia de reprodução.
 
 ---
 
@@ -46,7 +46,7 @@ Esta seção detalha a lista completa de habilidades técnicas demonstradas nos 
 
 ### Fundamentos de Programação (C/C++ para Arduino)
 - **Estrutura Básica:** Uso das funções `setup()` e `loop()`.
-- **Comentários:** Uni-linha (`//`) e multi-linha (`/* */`).
+
 - **Variáveis e Tipos de Dados:** Declaração e uso de `bool`, `char`, `byte`, `int`, `unsigned int`, `long`, `unsigned long`, `float`, `double`.
 - **Constantes e Macros:** Uso de `const` e `#define` para criar constantes e apelidos para pinos/valores.
 - **Operadores Aritméticos:** Soma (`+`), subtração (`-`), multiplicação (`*`), divisão (`/`), resto (`%`).
@@ -59,7 +59,7 @@ Esta seção detalha a lista completa de habilidades técnicas demonstradas nos 
 - **Estruturas de Repetição (Laços):** `for`, `do-while`.
 - **Estruturas de Dados:** Arrays (vetores) para agrupar dados como pinos e valores.
 - **Escopo de Variáveis:** Variáveis globais e locais, com destaque para o uso de `static` para manter o estado dentro de uma função.
-- **Bibliotecas Externas:** Inclusão e uso com `#include <LiquidCrystal_I2C.h>`.
+- **Bibliotecas Externas:** Inclusões como o uso de `#include <LiquidCrystal_I2C.h>`.
 
 ### Funções Nativas do Arduino
 - **Digitais:** `pinMode()`, `digitalWrite()`, `digitalRead()`.

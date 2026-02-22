@@ -12,13 +12,13 @@ Para uma visão rápida das habilidades desenvolvidas, recomendo explorar os seg
 
 1.  **[Internet Continuação](./Internet%20Continua%C3%A7%C3%A3o):** O projeto mais completo. Demonstra um nó sensor IoT bidirecional que lê dados de um sensor de temperatura/umidade (DHT) e de um botão, os empacota em JSON e os publica na nuvem via MQTT. Simultaneamente, ele recebe comandos da nuvem para ter seu comportamento (controle de LED, intervalo de publicação) alterado remotamente. É um sistema de telemetria e controle de ponta a ponta.
 
-2.  **[Internet 2](./Internet%202):** O par perfeito do projeto anterior e um exemplo de excelência em arquitetura de software. Este nó de monitoramento consome dados da nuvem, mas se destaca pela sua modularidade (código quebrado em funções pequenas e focadas) e robustez (tratamento de erro de JSON). A forma como ele usa o timestamp recebido para formatar a data/hora localmente é um exemplo de grande refinamento técnico.
+2.  **[Internet 2](./Internet%202):** A lógica herdada do projeto anterior e um exemplo de arquitetura de software IoT. Este nó de monitoramento consome dados da nuvem, mas se destaca pela sua modularidade (código quebrado em funções pequenas e focadas) e robustez (tratamento de erro de JSON). A forma como ele usa o timestamp recebido para formatar a data/hora localmente é tratada e robusta.
 
-3.  **[Aula 50 - Encoder Rotativo](./Aula%2050%20-%20Encoder%20Rotativo):** Um mergulho profundo em programação de baixo nível para criar uma interface de usuário sofisticada. A leitura do encoder rotativo é feita de forma extremamente eficiente, usando uma máquina de estados com tabela de transição (lookup table), uma técnica de alta performance. A arquitetura de menu com múltiplos modos de operação é a base para qualquer interface embarcada complexa.
+3.  **[Aula 50 - Encoder Rotativo](./Aula%2050%20-%20Encoder%20Rotativo):** Um salto para a programação de baixo nível, para criar uma interface de usuário sofisticada. A leitura do encoder rotativo é feita de forma atualizada, usando uma máquina de estados com tabela de transição, uma técnica de alta performance.
 
 4.  **[Aula 56 - Comunicacao VT](./Aula%2056%20-%20Comunica%C3%A7%C3%A3o%20VT):** A melhor demonstração de comunicação direta **Dispositivo-para-Dispositivo (M2M)**. Este projeto implementa uma rede pessoal sem fio (WPAN) via Bluetooth, com funcionalidades Master/Slave e um protocolo de comando-ação-resposta. Essencial para entender a automação onde dispositivos colaboram diretamente.
 
-5.  **[Aula 58 - Comunicacao Serial](./Aula%2058%20-%20Comunica%C3%A7%C3%A3o%20Serial):** Uma aula sobre como escrever um firmware **correto e responsivo**. Sua arquitetura não-bloqueante, que separa a leitura de comandos, o processamento da lógica e a atuação no hardware, é o padrão de ouro para sistemas embarcados. O parser de comandos avançado é a base para qualquer dispositivo controlado via texto.
+5.  **[Aula 58 - Comunicacao Serial](./Aula%2058%20-%20Comunica%C3%A7%C3%A3o%20Serial):** Uma aula sobre como escrever um firmware **correto e responsivo**. Sua arquitetura não-bloqueante, que separa a leitura de comandos, o processamento da lógica e a atuação no hardware, é o padrão de ouro para sistemas embarcados. O parser de comandos avançados é a base para qualquer dispositivo controlado via texto.
 
 ---
 

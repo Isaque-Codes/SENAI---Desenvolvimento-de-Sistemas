@@ -2,7 +2,7 @@
 
 Esta unidade curricular forneceu uma introdução imersiva ao mundo dos sistemas operacionais, utilizando **Linux (distribuição Ubuntu)** como o sistema de estudo e a **Amazon Web Services (AWS)** como a plataforma para provisionamento da infraestrutura.
 
-O objetivo principal foi mergulhar na experiência prática, permitindo a interação direta com um servidor **Ubuntu** real na nuvem. Através de uma instância **EC2 (Elastic Compute Cloud)**, exploramos desde a estrutura fundamental do sistema de arquivos e os comandos essenciais do shell, até a hospedagem de múltiplas aplicações web e a execução de programas a partir de repositórios externos.
+O objetivo principal foi mergulhar na experiência prática, permitindo a interação direta com um servidor **Ubuntu** real na nuvem. Através de uma instância **EC2 (Elastic Compute Cloud)**, exploramos desde a estrutura fundamental do sistema de arquivos e os comandos essenciais do shell, até a hospedagem de múltiplas aplicações web e a execução de programas à partir de repositórios externos.
 
 > **Nota:** Todo o processo de aprendizado ocorreu diretamente na linha de comando da máquina virtual, acessada via SSH, e em sua configuração manual na plataforma AWS.
 
@@ -24,7 +24,7 @@ A jornada de aprendizado foi dividida em dinâmicas práticas e colaborativas, e
 
 ### 1. Estrutura e Manipulação do Sistema de Arquivos
 
-O ponto de partida foi o estudo da organização hierárquica do sistema de arquivos do Linux, cujas ramificações de diretórios e suas respectivas funções estão detalhadas em **[Sistema de Arquivos](./Linux%20com%20AWS/Sistema%20de%20Arquivos/)**. Em seguida, aplicamos esse conhecimento para criar, renomear, mover, copiar e excluir arquivos e diretórios em uma hierarquia complexa.
+O ponto de partida foi o estudo da organização hierárquica do sistema de arquivos do Linux, cujas ramificações de diretórios e suas respectivas funções estão detalhadas em **[Sistema de Arquivos](./Linux%20com%20AWS/Sistema%20de%20Arquivos/)**. Em seguida, aplicamos este conhecimento para criar, renomear, mover, copiar e excluir arquivos e diretórios em uma hierarquia complexa.
 
 *   **Visualização e Navegação:** `ls`, `pwd`, `cd`, `tree`.
 *   **Criação e Manipulação:** `mkdir -p`, `touch`, `cp`, `mv`, `rm`, `rmdir`.
@@ -62,7 +62,7 @@ Este projeto prático abordou o desafio de hospedar vários sites em uma única 
 
 ### 2. Executando uma Aplicação Web Externa: Jogo da Cobrinha
 
-Este projeto demonstrou o fluxo completo de implantação de uma aplicação **Node.js** a partir do GitHub, tornando-a um serviço persistente e acessível pela web. O passo a passo completo está documentado em **[🕹️ Jogo da Cobrinha.md](./Linux%20com%20AWS/Comandos/Comandos%20Espec%C3%ADficos/%F0%9F%95%B9%EF%B8%8F%20Jogo%20da%20Cobrinha.md)**.
+Este projeto demonstrou o fluxo completo de implantação de uma aplicação **Node.js** à partir do GitHub, tornando-a um serviço persistente e acessível pela web. O passo a passo completo está documentado em **[🕹️ Jogo da Cobrinha.md](./Linux%20com%20AWS/Comandos/Comandos%20Espec%C3%ADficos/%F0%9F%95%B9%EF%B8%8F%20Jogo%20da%20Cobrinha.md)**.
 
 *   **Tecnologias Utilizadas:** **Node.js** como ambiente de execução, **PM2** como gerenciador de processos, e **Apache2** como proxy reverso.
 *   **Fluxo Executado:**

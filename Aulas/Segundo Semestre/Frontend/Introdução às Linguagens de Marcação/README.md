@@ -2,8 +2,6 @@
 
 Aqui temos os ensinamentos e desafios iniciais da unidade curricular de Front-end. O conteúdo serviu como a primeira imersão prática nas linguagens de marcação fundamentais da web: HTML e CSS.
 
-> **Nota:** Caro(a) visitante, não há nada de mais aqui. **O que você realmente quer ver está na outra pasta do diretório Front-end (volte uma pasta e veja o que realmente interessa na pasta ao lado desta).**
-
 ---
 
 ## 📖 Conceitos Abordados

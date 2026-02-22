@@ -1,6 +1,6 @@
 # 💡 Levantamento de Requisitos & Design Thinking
 
-Esta foi a unidade curricular inaugural do curso, estabelecendo a base não apenas técnica, mas também estratégica e humana para o desenvolvimento de software. O foco principal foi a aquisição de *soft skills* essenciais, como visão de negócio, empatia com o usuário e comunicação eficaz, ensinando-nos a investigar e entender um problema a fundo antes mesmo de considerar a solução tecnológica.
+Esta foi a unidade curricular inaugural do curso, estabelecendo a base não apenas técnica, mas também estratégica e humana para o desenvolvimento de software. O foco principal foi a aquisição de *soft skills* essenciais, como visão de negócio, empatia com o usuário e comunicação eficaz, ensinando-nos a investigar e entender um problema à fundo antes mesmo de considerar a solução tecnológica.
 
 Aprendemos a importância de alinhar as necessidades do cliente à viabilidade técnica, garantindo que os projetos desenvolvidos sejam não apenas funcionais, mas que também entreguem valor real.
 
@@ -18,7 +18,7 @@ O principal marco desta disciplina foi um projeto prático em grupo, onde simula
 
 4.  **Levantamento de Requisitos:** Com a ideia principal definida, formalizamos a solução através do levantamento de **Regras de Negócio**, **Requisitos Funcionais** e **Requisitos Não Funcionais**.
 
-5.  **Apresentação e Storytelling:** O projeto culminou em uma apresentação em grupo, onde utilizamos a técnica de **Storytelling** para construir uma narrativa coesa e persuasiva. Em vez de apenas listar funcionalidades, contamos a história do problema, da nossa jornada de descoberta e de como nossa solução poderia transformar a experiência do usuário.
+5.  **Apresentação e Storytelling:** O projeto culminou em uma apresentação em grupo, onde utilizamos a técnica de **Storytelling** para construir uma narrativa coesa e persuasiva. Em vez de apenas listar funcionalidades, contamos a história do problema, da nosso procedimento de análise e de como nossa solução poderia transformar a experiência do usuário.
 
 Os elementos visuais deste processo, como o PDF da apresentação e todo o processo de desenvolvimento, podem ser visualizados na pasta **[Design Thinking](./Design%20Thinking/)**.
 
